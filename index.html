@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    play_fair: ['"Playfair Display"', 'serif'],
+                    roboto: ['"Roboto"', 'sans-serif']
+                },
+                colors: {
+                    vulcan: '#121221',
+                    tundora: '#444444',
+                    dove_gray: '#6C6C6C',
+                    dusty_gray: '#949494',
+                    alabaster: '#F8F8F8',
+                    white: '#FDFDFD'
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-play_fair">
+    <header class="px-[3px]">
+        <div class="container flex justify-between pt-[32px] pb-[56px] mx-auto">
+            <a href="#" class="font-bold leading-[21px]">
+                <span class="bg-vulcan text-white p-[8px] rounded-[4px] mr-[10px]">News</span>
+                <span class="text-vulcan">Portal</span>
+            </a>
+            <div class="text-vulcan">
+                <button><img class="w-[21px] h-[21px] mr-[32px]" src="./assets/images/search.svg" alt=""></button>
+                <button><img class="w-[21px] h-[21px]" src="./assets/images/burger-menu.svg" alt=""></button>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
