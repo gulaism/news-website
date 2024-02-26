@@ -8,6 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/font.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <script>
         tailwind.config = {
             theme: {
@@ -41,6 +42,32 @@
             </div>
         </div>
     </header>
+    <div class="container px-[10px] mb-[56px] mx-auto">
+        <div class="font-roboto text-vulcan font-bold leading-[56px] text-[48px] mb-[24px]">Hot Topics</div>
+        <div class="flex gap-x-[30px]">
+            <div class="w-full">
+                <figure class="aspect-[2/1] text-alabaster relative">
+                    <img class="rounded-[8px] object-cover w-full h-full" src="https://images.squarespace-cdn.com/content/v1/551b7247e4b04e2cba1e41ce/1696306155257-93OF7KRMDCU89XY3BR1G/image-asset.jpeg" alt="">
+                    <div class="absolute left-[32px] bottom-[32px] z-[3]">
+                        <div class="three-dots font-bold text-[32px] leading-[48px] w-[420px] mb-[16px]">Massa tortor nibh nulla condimentum imperdiet scelerisque Loremipsumdolor sit amet, consectetur adipisicing elit. Incidunt veniam quo eligendi accusamus, impedit alias.</div>
+                    <span class="font-normal text-[12px] leading-[18px] mr-[27px]">2 Hours Ago</span>
+                    <span class="font-normal text-[12px] leading-[18px]">CNN Indonesia</span>
+                    </div>
+                    <img class="absolute left-0 right-0 bottom-0 w-full z-[2]" src="./assets/images/gradient.png" alt="">
+                </figure>
+                
+            </div>
+            <div class="w-[270px] text-tundora text-[18px] leading-[32px]">
+                <span class="text-[36px] leading-[65px]">Nisi,</span> sagittis aliquet sit rutrum. Nunc, id vestibulum quam ornare adipiscing. Pellentesque sed turpis nunc gravida pharetra, sit nec vivamus pharetra. Velit, dui, egestas nisi, elementum mattis mauris, magnis. Massa tortor nibh nulla condimentum imperdiet scelerisque <span class="hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem beatae enim, fugit molestias quibusdam accusantium.</span>
+                <input type="checkbox" name="" id="check" class="hidden">
+                <label class="text-vulcan" for="check">...read more</label>
+                
+                <div class="content hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quae possimus voluptas rem quos similique.</div>
+                <label class="text-vulcan hidden" for="check">...read less</label>
+            </div>
+        </div>
+    </div>
+    
 </body>
 
 </html>
